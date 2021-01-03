@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+header h2 {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+header {
+  margin: 30px;
+}
+
+/*.container {
+  width: 100%;
+  min-height: 450px;
+  background-color: #fff;
+  margin: 20px;
+}
+*/
+header p {
+  line-height: 1.5;
+}
+
+.card {
+  margin: 40px;
+  width: 80%;
+}
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 60px;
+  margin: 20px;
+  border: none;
+}
+ul {
+  list-style: none;
+  line-height: 1.5;
+  padding: 30px 0;
+}
+
+.card-2 {
+  display: flex;
+  color: #fff;
+  width: 80%;
+}
+
+@media (max-width: 600px) {
+  .card-2 {
+    flex-direction: column;
+  }
+}
+
+.box-1 {
+  background-color: hsl(179, 62%, 43%);
+  font-size: 16px;
+  padding: 40px;
+  width: 40%;
+}
+
+.box-1 p {
+  padding: 20px;
+}
+
+.box-1 strong {
+  font-size: 40px;
+}
+
+.box-2 {
+  background-color: hsl(180, 45%, 64%);
+  font-size: 16px;
+  padding: 40px;
+  width: 40%;
+}
+
+@media (max-width: 600px) {
+  .box-1,
+  .box-2 {
+    width: 100%;
+  }
+}
