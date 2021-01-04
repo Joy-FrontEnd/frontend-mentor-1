@@ -22,7 +22,7 @@ h2 {
 }
 
 header {
-  margin: 30px;
+  margin: 50px;
 }
 
 header p {
@@ -30,8 +30,8 @@ header p {
 }
 
 .container {
-  margin: 40px;
-  width: 68%;
+  margin: 20px auto;
+  width: 60%;
   border: 1px solid lightsteelblue;
   border-radius: 3px;
 }
@@ -39,11 +39,12 @@ header p {
 .container > div {
   flex: 1;
 }
+
 button {
   background-color: hsl(71, 73%, 54%);
   color: white;
   border-radius: 8px;
-  padding: 10px 75px;
+  padding: 10px 58px;
   margin-top: 30px;
 
   border: none;
