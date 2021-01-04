@@ -75,6 +75,7 @@ ul {
   background-color: hsl(179, 62%, 43%);
   font-size: 16px;
   padding: 48px;
+  width: 34%;
 }
 
 .box-1 h2 {
@@ -94,6 +95,7 @@ ul {
   background-color: hsl(180, 45%, 64%);
   font-size: 16px;
   padding: 50px;
+  width: 34%;
 }
 
 @media (max-width: 600px) {
